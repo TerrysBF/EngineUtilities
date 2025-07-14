@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Vectors">
+      <UniqueIdentifier>{0d51f770-516f-4d69-9b52-4733b0d38d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Utilities">
+      <UniqueIdentifier>{5be8fc5a-c70d-4f18-ab0c-af7cb81eae27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Rotations">
+      <UniqueIdentifier>{d64b2a19-c2a7-4839-acba-28c07dbc874f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Matrix">
+      <UniqueIdentifier>{8c0c6607-806d-4d83-a51c-560a475d8adf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\ECS">
+      <UniqueIdentifier>{49f804e7-f2d6-4c6d-a687-dc82ed1b669b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Vectors\Vector2.h">
+      <Filter>Archivos de encabezado\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Vectors\Vector3.h">
+      <Filter>Archivos de encabezado\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Vectors\Vector4.h">
+      <Filter>Archivos de encabezado\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Utilities\EngineMath.h">
+      <Filter>Archivos de encabezado\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Rotations\Quaternion.h">
+      <Filter>Archivos de encabezado\Rotations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Matrix\Matrix2x2.h">
+      <Filter>Archivos de encabezado\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Matrix\Matrix3x3.h">
+      <Filter>Archivos de encabezado\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Matrix\Matrix4x4.h">
+      <Filter>Archivos de encabezado\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ECS\ECS.h">
+      <Filter>Archivos de encabezado\ECS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
